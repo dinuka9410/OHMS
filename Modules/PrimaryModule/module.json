@@ -1,0 +1,18 @@
+{
+    "name": "PrimaryModule",
+    "alias": "primarymodule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PrimaryModule\\Providers\\PrimaryModuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "migration": {
+        "seeds": [
+            "Modules\\PrimaryModule\\Database\\Seeders\\PrimaryModuleDatabaseSeeder"
+        ]
+    }
+}
